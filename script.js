@@ -26,7 +26,7 @@ orders.forEach((order) => {
   const trContent = `
     <tr>
     <td>${order.productName}</td>
-    <td>${order.productNumber}</td>
+    <td>${order.ProductNumber}</td>
     <td>${order.paymentStatus}</td>
     <td class="${
       order.shipping === "Declined"
